@@ -1,5 +1,10 @@
 # 📁 File Organizer
 
+![Bash](https://img.shields.io/badge/Bash-Scripting-green)
+![Linux](https://img.shields.io/badge/Linux-Compatible-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Project-black)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A Bash-based File Organizer that automatically sorts files into categorized folders such as Documents, Images, Videos, Music, and Others.
 
 ---
@@ -20,7 +25,9 @@ A Bash-based File Organizer that automatically sorts files into categorized fold
 
 ## 📌 Overview
 
-File Organizer is a Bash scripting project that automatically organizes files into different folders based on their file extensions. It simplifies file management by reducing manual sorting and keeping directories clean.
+File Organizer is a Linux automation project built using Bash scripting. It scans a user-specified directory, detects files based on their extensions, and automatically organizes them into categorized folders.
+
+The project demonstrates practical Linux administration, shell scripting, and automation concepts commonly used in DevOps environments.
 
 ---
 
@@ -32,13 +39,26 @@ File Organizer is a Bash scripting project that automatically organizes files in
 - Organize Music
 - Move Unknown Files to Others
 - Automatic File Classification
-- Menu-driven Interface
+- Fast File Organization
+- Simple Command-Line Interface
 
 ---
 
-## 🛠 Technologies
+## 📂 Supported File Types
 
-- Bash
+| Category | Examples |
+|----------|----------|
+| Documents | pdf, docx, txt |
+| Images | jpg, jpeg, png |
+| Videos | mp4, mkv, avi |
+| Music | mp3, wav |
+| Others | Unknown extensions |
+
+---
+
+## 🛠 Technologies Used
+
+- Bash Shell
 - Linux Commands
 - Shell Scripting
 - Git
@@ -84,11 +104,22 @@ cd scripts
 
 ## 🎯 Use Cases
 
-- File Management
+- Linux File Management
+- Bash Scripting Practice
 - Linux Administration
-- Automation Practice
-- DevOps Practice
-- Learning Bash Scripting
+- DevOps Automation
+- Automation Learning
+- Beginner Linux Projects
+
+---
+
+## 🔮 Future Enhancements
+
+- Recursive Directory Support
+- Custom File Categories
+- Log Generation
+- Undo Operation
+- Colorized Terminal Output
 
 ---
 
@@ -96,4 +127,6 @@ cd scripts
 
 **Rohan Tundalwar**
 
-Aspiring DevOps Engineer | Linux | Bash | Git | AWS
+Aspiring DevOps Engineer
+
+**Skills:** Linux • Bash • Git • GitHub • AWS
