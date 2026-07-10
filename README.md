@@ -1,90 +1,99 @@
-# File Organizer
+# 📁 File Organizer
 
-A Bash-based file organizer that automatically sorts files into folders based on their file extensions.
-
----
-
-# 📌 Overview
-
-File Organizer is a Linux automation project built using Bash scripting. It scans a selected folder and organizes files into separate directories such as Images, Documents, Videos, Music, and Others.
-
-This project demonstrates basic automation techniques commonly used in Linux system administration.
+A Bash-based File Organizer that automatically sorts files into categorized folders such as Documents, Images, Videos, Music, and Others.
 
 ---
 
-# 🚀 Features
+## 📸 Screenshots
 
-- Automatically organize files
-- Categorize by file extension
-- Supports multiple file types
-- Simple terminal interface
-- Beginner-friendly Bash automation
+### Main Menu
+
+![Main Menu](screenshots/main-menu.png)
 
 ---
 
-# 🛠 Technologies
+### Organized Output
+
+![Output](screenshots/output.png)
+
+---
+
+## 📌 Overview
+
+File Organizer is a Bash scripting project that automatically organizes files into different folders based on their file extensions. It simplifies file management by reducing manual sorting and keeping directories clean.
+
+---
+
+## 🚀 Features
+
+- Organize Documents
+- Organize Images
+- Organize Videos
+- Organize Music
+- Move Unknown Files to Others
+- Automatic File Classification
+- Menu-driven Interface
+
+---
+
+## 🛠 Technologies
 
 - Bash
-- Linux
+- Linux Commands
 - Shell Scripting
+- Git
+- GitHub
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 file-organizer/
 │
 ├── scripts/
 │   └── organizer.sh
 │
+├── screenshots/
+│   ├── main-menu.png
+│   └── output.png
+│
 ├── TestFiles/
+│   ├── Documents/
+│   ├── Images/
+│   ├── Music/
+│   ├── Others/
+│   └── Videos/
+│
+├── docs/
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-# 📁 Supported Categories
+## ▶️ How to Run
 
-- Images (.jpg, .png, .jpeg)
-- Documents (.pdf, .txt, .doc)
-- Music (.mp3)
-- Videos (.mp4)
-- Others
-
----
-
-# ▶️ Usage
-
-```
+```bash
 chmod +x scripts/organizer.sh
-./scripts/organizer.sh
+cd scripts
+./organizer.sh
 ```
 
 ---
 
-# 📚 Linux Commands Used
+## 🎯 Use Cases
 
-- mkdir
-- mv
-- find
-- basename
-- echo
-
----
-
-# 🎯 Learning Objectives
-
-- File handling
-- Directory management
-- Bash scripting
-- Linux automation
+- File Management
+- Linux Administration
+- Automation Practice
+- DevOps Practice
+- Learning Bash Scripting
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Rohan Tundalwar**
 
-DevOps Engineer (Learning)
+Aspiring DevOps Engineer | Linux | Bash | Git | AWS
